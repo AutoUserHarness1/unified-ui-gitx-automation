@@ -11,3 +11,4 @@ pipeline:
 # automation test change github-list-default
 # automation test change github-save-default
 # automation test change github-new-branch
+# automation test change github-save-feature
