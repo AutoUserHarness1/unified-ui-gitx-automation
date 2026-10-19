@@ -1,0 +1,10 @@
+pipeline:
+  name: E2E_UI_GitX_MoveToGit_Pipeline_1792436915707
+  identifier: e2e_ui_gitx_movetogit_pipeline_1792436915707
+  stages:
+    - name: Stage
+      id: stage
+      steps:
+        - name: Step
+          id: step
+          run: echo "Hello, world!"
