@@ -1,11 +1,10 @@
 pipeline:
+  name: E2E_UI_GitX_RemoteGitHub_Pipeline_1792700790448
+  id: E2E_UI_GitX_RemoteGitHub_Pipeline_1792700790448
   stages:
-    - name: Stage 1
-      id: Stage_1
+    - name: Input Stage
+      id: input_stage
       steps:
-        - name: Step 1
-          run:
-            script: echo "hello world"
-          id: Step_1
-
-# automation test change input-set-seed
+        - name: Input Step
+          id: input_step
+          run: <+input>
