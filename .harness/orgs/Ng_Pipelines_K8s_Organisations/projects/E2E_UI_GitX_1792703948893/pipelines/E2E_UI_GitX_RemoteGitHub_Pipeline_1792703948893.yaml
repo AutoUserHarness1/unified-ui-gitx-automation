@@ -1,0 +1,11 @@
+pipeline:
+  stages:
+    - name: Stage 1
+      id: Stage_1
+      steps:
+        - name: Step 1
+          run:
+            script: echo "hello world"
+          id: Step_1
+
+# automation test change input-set-seed
