@@ -1,12 +1,10 @@
 pipeline:
+  name: E2E_UI_GitX_RemoteGitHub_Pipeline_1792749966962
+  id: E2E_UI_GitX_RemoteGitHub_Pipeline_1792749966962
   stages:
-    - name: Stage 1
-      id: Stage_1
+    - name: Input Stage
+      id: input_stage
       steps:
-        - name: Step 1
-          run:
-            script: echo "hello world"
-          id: Step_1
-
-# gitx-ui-071-run default
-# gitx-ui-071-run runtime
+        - name: Input Step
+          id: input_step
+          run: <+input>
