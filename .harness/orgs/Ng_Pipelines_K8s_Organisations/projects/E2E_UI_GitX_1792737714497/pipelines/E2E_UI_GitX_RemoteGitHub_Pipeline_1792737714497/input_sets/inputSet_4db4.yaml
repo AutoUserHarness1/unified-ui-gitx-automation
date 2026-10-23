@@ -1,0 +1,11 @@
+version: 1
+name: E2E_UI_GitX_InputSet_1792737714497
+identifier: E2E_UI_GitX_InputSet_1792737714497
+inputs:
+  overlay:
+    stages:
+      - steps:
+          - run:
+              script: exit 0
+            id: input_step
+        id: input_stage
